@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\IndexController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('admin.pages.index');
-});
+// Route::get('/', function () {
+//     return view('admin.pages.index');
+// });
+
+Route::get('/',[IndexController::class, 'index_index'])->name('/');
+Route::get('index',[IndexController::class, 'index_index2'])->name('index2');
+Route::get('index-3',[IndexController::class, 'index_index3'])->name('index3');
