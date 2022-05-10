@@ -9,7 +9,11 @@
         @yield('top-nav')
         @yield('top-nav-sidebar')
         @yield('boxed')
-
+        @yield('fixed-sidebar')
+        @yield('fixed-sidebar-custom')
+        @yield('fixed-topnav')
+        @yield('fixed-footer')
+        @yield('collapsed-sidebar')
 
         @include('admin.pages.footer-script')
     </html>

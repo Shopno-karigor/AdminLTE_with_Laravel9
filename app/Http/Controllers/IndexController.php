@@ -15,4 +15,9 @@ class IndexController extends Controller
     public function index_top_nav(){ return view('admin.pages.layout.top-nav');}
     public function index_top_nav_sidebar(){ return view('admin.pages.layout.top-nav-sidebar');}
     public function index_boxed(){ return view('admin.pages.layout.boxed');}
+    public function index_fixed_sidebar(){ return view('admin.pages.layout.fixed-sidebar');}
+    public function index_fixed_sidebar_custom(){ return view('admin.pages.layout.fixed-sidebar-custom');}
+    public function index_fixed_topnav(){ return view('admin.pages.layout.fixed-topnav');}
+    public function index_fixed_footer(){ return view('admin.pages.layout.fixed-footer');}
+    public function index_collapsed_sidebar(){ return view('admin.pages.layout.collapsed-sidebar');}
 }
