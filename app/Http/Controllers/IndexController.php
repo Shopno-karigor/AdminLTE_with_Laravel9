@@ -25,4 +25,6 @@ class IndexController extends Controller
     public function index_flot(){ return view('admin.pages.charts.flot');}
     public function index_inline(){ return view('admin.pages.charts.inline');}
     public function index_uplot(){ return view('admin.pages.charts.uplot');}
+    // UI
+    public function index_general(){ return view('admin.pages.UI.general');}
 }

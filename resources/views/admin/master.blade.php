@@ -19,6 +19,8 @@
         @yield('flot')
         @yield('inline')
         @yield('uplot')
+        {{-- UI --}}
+        @yield('general')
 
         @include('admin.pages.footer-script')
     </html>

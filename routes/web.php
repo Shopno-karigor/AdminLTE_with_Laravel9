@@ -32,3 +32,5 @@ Route::get('Chartjs',[IndexController::class, 'index_chartjs'])->name('chartjs')
 Route::get('Flot',[IndexController::class, 'index_flot'])->name('flot');
 Route::get('Inline',[IndexController::class, 'index_inline'])->name('inline');
 Route::get('Uplot',[IndexController::class, 'index_uplot'])->name('uplot');
+// UI
+Route::get('UI General',[IndexController::class, 'index_general'])->name('general');
