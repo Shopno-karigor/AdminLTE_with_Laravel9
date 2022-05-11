@@ -35,3 +35,4 @@ Route::get('Uplot',[IndexController::class, 'index_uplot'])->name('uplot');
 // UI
 Route::get('UI General',[IndexController::class, 'index_general'])->name('general');
 Route::get('UI Icons',[IndexController::class, 'index_icons'])->name('icons');
+Route::get('UI Buttons',[IndexController::class, 'index_buttons'])->name('buttons');

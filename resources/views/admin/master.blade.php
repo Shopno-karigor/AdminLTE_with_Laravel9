@@ -22,6 +22,7 @@
         {{-- UI --}}
         @yield('general')
         @yield('icons')
+        @yield('buttons')
 
         @include('admin.pages.footer-script')
     </html>
