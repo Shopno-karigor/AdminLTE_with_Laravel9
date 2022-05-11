@@ -27,4 +27,5 @@ class IndexController extends Controller
     public function index_uplot(){ return view('admin.pages.charts.uplot');}
     // UI
     public function index_general(){ return view('admin.pages.UI.general');}
+    public function index_icons(){ return view('admin.pages.UI.icons');}
 }

@@ -21,6 +21,7 @@
         @yield('uplot')
         {{-- UI --}}
         @yield('general')
+        @yield('icons')
 
         @include('admin.pages.footer-script')
     </html>
