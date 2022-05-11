@@ -23,6 +23,7 @@
         @yield('general')
         @yield('icons')
         @yield('buttons')
+        @yield('sliders')
 
         @include('admin.pages.footer-script')
     </html>

@@ -195,7 +195,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/UI/sliders.html" class="nav-link">
+                <a href="{{route('sliders')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Sliders</p>
                 </a>
