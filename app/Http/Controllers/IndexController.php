@@ -20,4 +20,9 @@ class IndexController extends Controller
     public function index_fixed_topnav(){ return view('admin.pages.layout.fixed-topnav');}
     public function index_fixed_footer(){ return view('admin.pages.layout.fixed-footer');}
     public function index_collapsed_sidebar(){ return view('admin.pages.layout.collapsed-sidebar');}
+    // Charts
+    public function index_chartjs(){ return view('admin.pages.charts.chartjs');}
+    public function index_flot(){ return view('admin.pages.charts.flot');}
+    public function index_inline(){ return view('admin.pages.charts.inline');}
+    public function index_uplot(){ return view('admin.pages.charts.uplot');}
 }

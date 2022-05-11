@@ -14,6 +14,11 @@
         @yield('fixed-topnav')
         @yield('fixed-footer')
         @yield('collapsed-sidebar')
+        {{-- Charts --}}
+        @yield('chartjs')
+        @yield('flot')
+        @yield('inline')
+        @yield('uplot')
 
         @include('admin.pages.footer-script')
     </html>

@@ -27,3 +27,8 @@ Route::get('Fixed Sidebar Custom',[IndexController::class, 'index_fixed_sidebar_
 Route::get('Fixed Topnav',[IndexController::class, 'index_fixed_topnav'])->name('fixed-topnav');
 Route::get('Fixed Footer',[IndexController::class, 'index_fixed_footer'])->name('fixed-footer');
 Route::get('Collapsed Sidebar',[IndexController::class, 'index_collapsed_sidebar'])->name('collapsed-sidebar');
+// Charts
+Route::get('Chartjs',[IndexController::class, 'index_chartjs'])->name('chartjs');
+Route::get('Flot',[IndexController::class, 'index_flot'])->name('flot');
+Route::get('Inline',[IndexController::class, 'index_inline'])->name('inline');
+Route::get('Uplot',[IndexController::class, 'index_uplot'])->name('uplot');
