@@ -46,5 +46,9 @@ class IndexController extends Controller
     public function index_simple_tables(){ return view('admin.pages.tables.simple');}
     public function index_data_tables(){ return view('admin.pages.tables.data');}
     public function index_jsgrid_tables(){ return view('admin.pages.tables.jsgrid');}
+    // Mailbox
+    public function index_mailbox_mailbox(){ return view('admin.pages.mailbox.mailbox');}
+    public function index_compose_mailbox(){ return view('admin.pages.mailbox.compose');}
+    public function index_read_mailbox(){ return view('admin.pages.mailbox.read-mail');}
 
 }

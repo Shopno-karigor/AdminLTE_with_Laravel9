@@ -53,3 +53,7 @@ Route::get('Forms Validation',[IndexController::class, 'index_validation_forms']
 Route::get('Tables Simple',[IndexController::class, 'index_simple_tables'])->name('simple-tables');
 Route::get('Tables Data',[IndexController::class, 'index_data_tables'])->name('data-tables');
 Route::get('Tables Jsgrid',[IndexController::class, 'index_jsgrid_tables'])->name('jsgrid-tables');
+// Mailbox
+Route::get('Mailbox',[IndexController::class, 'index_mailbox_mailbox'])->name('mailbox');
+Route::get('Compose',[IndexController::class, 'index_compose_mailbox'])->name('mailbox-compose');
+Route::get('Read',[IndexController::class, 'index_read_mailbox'])->name('read-mail');
