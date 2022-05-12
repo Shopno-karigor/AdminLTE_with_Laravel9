@@ -14,6 +14,8 @@ class IndexController extends Controller
     public function index_calendar(){ return view('admin.pages.calendar');}
     public function index_gallery(){ return view('admin.pages.gallery');}
     public function index_kanban(){ return view('admin.pages.kanban');}
+    public function index_invoice(){ return view('admin.pages.invoice');}
+    public function index_invoice_print(){ return view('admin.pages.invoice-print');}
     // Layout
     public function index_top_nav(){ return view('admin.pages.layout.top-nav');}
     public function index_top_nav_sidebar(){ return view('admin.pages.layout.top-nav-sidebar');}

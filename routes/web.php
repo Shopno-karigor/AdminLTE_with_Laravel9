@@ -21,6 +21,8 @@ Route::get('Widgets',[IndexController::class, 'index_widgets'])->name('widgets')
 Route::get('Calendar',[IndexController::class, 'index_calendar'])->name('calendar');
 Route::get('Gallery',[IndexController::class, 'index_gallery'])->name('gallery');
 Route::get('Kanban',[IndexController::class, 'index_kanban'])->name('kanban');
+Route::get('Invoice',[IndexController::class, 'index_invoice'])->name('invoice');
+Route::get('Invoice Print',[IndexController::class, 'index_invoice_print'])->name('invoice-print');
 // Layout
 Route::get('Top Nav',[IndexController::class, 'index_top_nav'])->name('top-nav');
 Route::get('Top Nav Sidebar',[IndexController::class, 'index_top_nav_sidebar'])->name('top-nav-sidebar');
