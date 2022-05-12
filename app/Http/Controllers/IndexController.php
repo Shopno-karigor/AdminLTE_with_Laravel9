@@ -30,4 +30,5 @@ class IndexController extends Controller
     public function index_icons(){ return view('admin.pages.UI.icons');}
     public function index_buttons(){ return view('admin.pages.UI.buttons');}
     public function index_sliders(){ return view('admin.pages.UI.sliders');}
+    public function index_modals(){ return view('admin.pages.UI.modals');}
 }
