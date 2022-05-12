@@ -38,3 +38,4 @@ Route::get('UI Icons',[IndexController::class, 'index_icons'])->name('icons');
 Route::get('UI Buttons',[IndexController::class, 'index_buttons'])->name('buttons');
 Route::get('UI Sliders',[IndexController::class, 'index_sliders'])->name('sliders');
 Route::get('UI Modals',[IndexController::class, 'index_modals'])->name('modals');
+Route::get('UI Navbar',[IndexController::class, 'index_navbar'])->name('navbar');
