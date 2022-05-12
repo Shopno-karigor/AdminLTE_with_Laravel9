@@ -59,3 +59,13 @@ Route::get('Tables Jsgrid',[IndexController::class, 'index_jsgrid_tables'])->nam
 Route::get('Mailbox',[IndexController::class, 'index_mailbox_mailbox'])->name('mailbox');
 Route::get('Compose',[IndexController::class, 'index_compose_mailbox'])->name('mailbox-compose');
 Route::get('Read',[IndexController::class, 'index_read_mailbox'])->name('read-mail');
+// Pages
+Route::get('Profile',[IndexController::class, 'index_profile_examples'])->name('profile');
+Route::get('E-commerce',[IndexController::class, 'index_ecommerce_examples'])->name('ecommerce');
+Route::get('Projects',[IndexController::class, 'index_projects_examples'])->name('projects');
+Route::get('Project Add',[IndexController::class, 'index_project_add_examples'])->name('project-add');
+Route::get('Project Edit',[IndexController::class, 'index_project_edit_examples'])->name('project-edit');
+Route::get('Project Detail',[IndexController::class, 'index_project_detail_examples'])->name('project-detail');
+Route::get('Contacts',[IndexController::class, 'index_contacts_examples'])->name('contacts');
+Route::get('FAQ',[IndexController::class, 'index_faq_examples'])->name('faq');
+Route::get('Contact Us',[IndexController::class, 'index_contact_us_examples'])->name('contact-us');

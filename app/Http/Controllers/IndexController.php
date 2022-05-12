@@ -52,5 +52,15 @@ class IndexController extends Controller
     public function index_mailbox_mailbox(){ return view('admin.pages.mailbox.mailbox');}
     public function index_compose_mailbox(){ return view('admin.pages.mailbox.compose');}
     public function index_read_mailbox(){ return view('admin.pages.mailbox.read-mail');}
+    // Pages
+    public function index_profile_examples(){ return view('admin.pages.examples.profile');}
+    public function index_ecommerce_examples(){ return view('admin.pages.examples.e-commerce');}
+    public function index_projects_examples(){ return view('admin.pages.examples.projects');}
+    public function index_project_add_examples(){ return view('admin.pages.examples.project-add');}
+    public function index_project_edit_examples(){ return view('admin.pages.examples.project-edit');}
+    public function index_project_detail_examples(){ return view('admin.pages.examples.project-detail');}
+    public function index_contacts_examples(){ return view('admin.pages.examples.contacts');}
+    public function index_faq_examples(){ return view('admin.pages.examples.faq');}
+    public function index_contact_us_examples(){ return view('admin.pages.examples.contact-us');}
 
 }
