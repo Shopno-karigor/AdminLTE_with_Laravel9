@@ -20,7 +20,6 @@
         @yield('inline')
         @yield('uplot')
         {{-- UI --}}
-        @yield('general')
         @yield('icons')
         @yield('buttons')
         @yield('sliders')
