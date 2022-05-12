@@ -33,4 +33,5 @@ class IndexController extends Controller
     public function index_modals(){ return view('admin.pages.UI.modals');}
     public function index_navbar(){ return view('admin.pages.UI.navbar');}
     public function index_timeline(){ return view('admin.pages.UI.timeline');}
+    public function index_ribbons(){ return view('admin.pages.UI.ribbons');}
 }

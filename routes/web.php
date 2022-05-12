@@ -40,3 +40,4 @@ Route::get('UI Sliders',[IndexController::class, 'index_sliders'])->name('slider
 Route::get('UI Modals',[IndexController::class, 'index_modals'])->name('modals');
 Route::get('UI Navbar',[IndexController::class, 'index_navbar'])->name('navbar');
 Route::get('UI Timeline',[IndexController::class, 'index_timeline'])->name('timeline');
+Route::get('UI Ribbons',[IndexController::class, 'index_ribbons'])->name('ribbons');
