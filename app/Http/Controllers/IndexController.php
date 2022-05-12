@@ -34,4 +34,10 @@ class IndexController extends Controller
     public function index_navbar(){ return view('admin.pages.UI.navbar');}
     public function index_timeline(){ return view('admin.pages.UI.timeline');}
     public function index_ribbons(){ return view('admin.pages.UI.ribbons');}
+    // Forms
+    public function index_general_forms(){ return view('admin.pages.forms.general');}
+    public function index_advanced_forms(){ return view('admin.pages.forms.advanced');}
+    public function index_editors_forms(){ return view('admin.pages.forms.editors');}
+    public function index_validation_forms(){ return view('admin.pages.forms.validation');}
+
 }

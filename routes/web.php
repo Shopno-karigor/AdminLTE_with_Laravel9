@@ -41,3 +41,8 @@ Route::get('UI Modals',[IndexController::class, 'index_modals'])->name('modals')
 Route::get('UI Navbar',[IndexController::class, 'index_navbar'])->name('navbar');
 Route::get('UI Timeline',[IndexController::class, 'index_timeline'])->name('timeline');
 Route::get('UI Ribbons',[IndexController::class, 'index_ribbons'])->name('ribbons');
+// Forms
+Route::get('Forms General',[IndexController::class, 'index_general_forms'])->name('general-forms');
+Route::get('Forms Advanced',[IndexController::class, 'index_advanced_forms'])->name('advanced-forms');
+Route::get('Forms Editors',[IndexController::class, 'index_editors_forms'])->name('editors-forms');
+Route::get('Forms Validation',[IndexController::class, 'index_validation_forms'])->name('validation-forms');
