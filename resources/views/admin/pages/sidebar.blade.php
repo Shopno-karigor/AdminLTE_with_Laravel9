@@ -292,7 +292,7 @@
           </li>
           <li class="nav-header">EXAMPLES</li>
           <li class="nav-item">
-            <a href="pages/calendar.html" class="nav-link">
+            <a href="{{route('calendar')}}" class="nav-link">
               <i class="nav-icon far fa-calendar-alt"></i>
               <p>
                 Calendar
@@ -301,7 +301,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="pages/gallery.html" class="nav-link">
+            <a href="{{route('gallery')}}" class="nav-link">
               <i class="nav-icon far fa-image"></i>
               <p>
                 Gallery
@@ -309,7 +309,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="pages/kanban.html" class="nav-link">
+            <a href="{{route('kanban')}}" class="nav-link">
               <i class="nav-icon fas fa-columns"></i>
               <p>
                 Kanban Board

@@ -18,6 +18,9 @@ Route::get('/',[IndexController::class, 'index_index'])->name('/');
 Route::get('index',[IndexController::class, 'index_index2'])->name('index2');
 Route::get('index-3',[IndexController::class, 'index_index3'])->name('index3');
 Route::get('Widgets',[IndexController::class, 'index_widgets'])->name('widgets');
+Route::get('Calendar',[IndexController::class, 'index_calendar'])->name('calendar');
+Route::get('Gallery',[IndexController::class, 'index_gallery'])->name('gallery');
+Route::get('Kanban',[IndexController::class, 'index_kanban'])->name('kanban');
 // Layout
 Route::get('Top Nav',[IndexController::class, 'index_top_nav'])->name('top-nav');
 Route::get('Top Nav Sidebar',[IndexController::class, 'index_top_nav_sidebar'])->name('top-nav-sidebar');
