@@ -39,5 +39,9 @@ class IndexController extends Controller
     public function index_advanced_forms(){ return view('admin.pages.forms.advanced');}
     public function index_editors_forms(){ return view('admin.pages.forms.editors');}
     public function index_validation_forms(){ return view('admin.pages.forms.validation');}
+    // Tables
+    public function index_simple_tables(){ return view('admin.pages.tables.simple');}
+    public function index_data_tables(){ return view('admin.pages.tables.data');}
+    public function index_jsgrid_tables(){ return view('admin.pages.tables.jsgrid');}
 
 }

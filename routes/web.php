@@ -46,3 +46,7 @@ Route::get('Forms General',[IndexController::class, 'index_general_forms'])->nam
 Route::get('Forms Advanced',[IndexController::class, 'index_advanced_forms'])->name('advanced-forms');
 Route::get('Forms Editors',[IndexController::class, 'index_editors_forms'])->name('editors-forms');
 Route::get('Forms Validation',[IndexController::class, 'index_validation_forms'])->name('validation-forms');
+// Tables
+Route::get('Tables Simple',[IndexController::class, 'index_simple_tables'])->name('simple-tables');
+Route::get('Tables Data',[IndexController::class, 'index_data_tables'])->name('data-tables');
+Route::get('Tables Jsgrid',[IndexController::class, 'index_jsgrid_tables'])->name('jsgrid-tables');
