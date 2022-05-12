@@ -1,5 +1,8 @@
-@extends('admin.master')
-@section('buttons')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AdminLTE 3 | Buttons</title>
 
   <!-- Google Font: Source Sans Pro -->
@@ -1596,4 +1599,4 @@
 <!-- AdminLTE for demo purposes -->
 <script src="../../dist/js/demo.js"></script>
 </body>
-@stop
+</html>
