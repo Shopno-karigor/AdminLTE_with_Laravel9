@@ -81,6 +81,9 @@ class IndexController extends Controller
     // Extra
     public function index_legacy_user_menu(){ return view('admin.pages.examples.legacy-user-menu');}
     public function index_language_menu(){ return view('admin.pages.examples.language-menu');}
+    public function index_pace(){ return view('admin.pages.examples.pace');}
+    public function index_blank(){ return view('admin.pages.examples.blank');}
+    public function index_starter(){ return view('admin.pages.starter');}
     // Errors
     public function index_error_404(){ return view('admin.pages.examples.404');}
     public function index_error_500(){ return view('admin.pages.examples.500');}
