@@ -23,6 +23,7 @@ Route::get('Gallery',[IndexController::class, 'index_gallery'])->name('gallery')
 Route::get('Kanban',[IndexController::class, 'index_kanban'])->name('kanban');
 Route::get('Invoice',[IndexController::class, 'index_invoice'])->name('invoice');
 Route::get('Invoice Print',[IndexController::class, 'index_invoice_print'])->name('invoice-print');
+Route::get('Lockscreen',[IndexController::class, 'index_lockscreen'])->name('lockscreen');
 // Layout
 Route::get('Top Nav',[IndexController::class, 'index_top_nav'])->name('top-nav');
 Route::get('Top Nav Sidebar',[IndexController::class, 'index_top_nav_sidebar'])->name('top-nav-sidebar');
@@ -84,4 +85,7 @@ Route::get('Login v2',[IndexController::class, 'index_loginv2'])->name('loginv2'
 Route::get('Register v2',[IndexController::class, 'index_registerv2'])->name('registerv2');
 Route::get('Forgot Password v2',[IndexController::class, 'index_forgot_passwordv2'])->name('forgot-passwordv2');
 Route::get('Recover Password v2',[IndexController::class, 'index_recover_passwordv2'])->name('recover-passwordv2');
+// Extra
+Route::get('Legacy User Menu',[IndexController::class, 'index_legacy_user_menu'])->name('legacy-user-menu');
+Route::get('Language Menu',[IndexController::class, 'index_language_menu'])->name('language-menu');
 

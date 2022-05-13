@@ -16,6 +16,7 @@ class IndexController extends Controller
     public function index_kanban(){ return view('admin.pages.kanban');}
     public function index_invoice(){ return view('admin.pages.invoice');}
     public function index_invoice_print(){ return view('admin.pages.invoice-print');}
+    public function index_lockscreen(){ return view('admin.pages.lockscreen');}
     // Layout
     public function index_top_nav(){ return view('admin.pages.layout.top-nav');}
     public function index_top_nav_sidebar(){ return view('admin.pages.layout.top-nav-sidebar');}
@@ -72,11 +73,14 @@ class IndexController extends Controller
     public function index_registerv1(){ return view('admin.pages.Login-Register-v1.register');}
     public function index_forgot_passwordv1(){ return view('admin.pages.Login-Register-v1.forgot-password');}
     public function index_recover_passwordv1(){ return view('admin.pages.Login-Register-v1.recover-password');}
-    // Login & Register v1
+    // Login & Register v2
     public function index_loginv2(){ return view('admin.pages.Login-Register-v2.login');}
     public function index_registerv2(){ return view('admin.pages.Login-Register-v2.register');}
     public function index_forgot_passwordv2(){ return view('admin.pages.Login-Register-v2.forgot-password');}
     public function index_recover_passwordv2(){ return view('admin.pages.Login-Register-v2.recover-password');}
+    // Extra
+    public function index_legacy_user_menu(){ return view('admin.pages.examples.legacy-user-menu');}
+    public function index_language_menu(){ return view('admin.pages.examples.language-menu');}
 
 
 }
