@@ -88,4 +88,7 @@ Route::get('Recover Password v2',[IndexController::class, 'index_recover_passwor
 // Extra
 Route::get('Legacy User Menu',[IndexController::class, 'index_legacy_user_menu'])->name('legacy-user-menu');
 Route::get('Language Menu',[IndexController::class, 'index_language_menu'])->name('language-menu');
+// Errors
+Route::get('Error 404',[IndexController::class, 'index_error_404'])->name('error-404');
+Route::get('Error 500',[IndexController::class, 'index_error_500'])->name('error-500');
 
