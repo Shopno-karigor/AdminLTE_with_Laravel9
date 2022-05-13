@@ -72,6 +72,11 @@ class IndexController extends Controller
     public function index_registerv1(){ return view('admin.pages.Login-Register-v1.register');}
     public function index_forgot_passwordv1(){ return view('admin.pages.Login-Register-v1.forgot-password');}
     public function index_recover_passwordv1(){ return view('admin.pages.Login-Register-v1.recover-password');}
+    // Login & Register v1
+    public function index_loginv2(){ return view('admin.pages.Login-Register-v2.login');}
+    public function index_registerv2(){ return view('admin.pages.Login-Register-v2.register');}
+    public function index_forgot_passwordv2(){ return view('admin.pages.Login-Register-v2.forgot-password');}
+    public function index_recover_passwordv2(){ return view('admin.pages.Login-Register-v2.recover-password');}
 
 
 }

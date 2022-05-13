@@ -79,4 +79,9 @@ Route::get('Login v1',[IndexController::class, 'index_loginv1'])->name('loginv1'
 Route::get('Register v1',[IndexController::class, 'index_registerv1'])->name('registerv1');
 Route::get('Forgot Password v1',[IndexController::class, 'index_forgot_passwordv1'])->name('forgot-passwordv1');
 Route::get('Recover Password v1',[IndexController::class, 'index_recover_passwordv1'])->name('recover-passwordv1');
+// Login & Register v2
+Route::get('Login v2',[IndexController::class, 'index_loginv2'])->name('loginv2');
+Route::get('Register v2',[IndexController::class, 'index_registerv2'])->name('registerv2');
+Route::get('Forgot Password v2',[IndexController::class, 'index_forgot_passwordv2'])->name('forgot-passwordv2');
+Route::get('Recover Password v2',[IndexController::class, 'index_recover_passwordv2'])->name('recover-passwordv2');
 
