@@ -423,25 +423,25 @@
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="pages/examples/login.html" class="nav-link">
+                    <a href="{{route('loginv1')}}" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
                       <p>Login v1</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="pages/examples/register.html" class="nav-link">
+                    <a href="{{route('registerv1')}}" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
                       <p>Register v1</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="pages/examples/forgot-password.html" class="nav-link">
+                    <a href="{{route('forgot-passwordv1')}}" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
                       <p>Forgot Password v1</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="pages/examples/recover-password.html" class="nav-link">
+                    <a href="{{route('recover-passwordv1')}}" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
                       <p>Recover Password v1</p>
                     </a>

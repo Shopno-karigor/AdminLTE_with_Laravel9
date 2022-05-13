@@ -74,4 +74,9 @@ Route::get('Search Simple',[IndexController::class, 'index_simple_search'])->nam
 Route::get('Search Simple Results',[IndexController::class, 'index_simple_search_results'])->name('simple-search-results');
 Route::get('Search Enhanced',[IndexController::class, 'index_enhanced_search'])->name('enhanced-search');
 Route::get('Search Enhanced Results',[IndexController::class, 'index_enhanced_search_results'])->name('enhanced-search-results');
+// Login & Register v1
+Route::get('Login v1',[IndexController::class, 'index_loginv1'])->name('loginv1');
+Route::get('Register v1',[IndexController::class, 'index_registerv1'])->name('registerv1');
+Route::get('Forgot Password v1',[IndexController::class, 'index_forgot_passwordv1'])->name('forgot-passwordv1');
+Route::get('Recover Password v1',[IndexController::class, 'index_recover_passwordv1'])->name('recover-passwordv1');
 
