@@ -84,6 +84,7 @@ class IndexController extends Controller
     public function index_pace(){ return view('admin.pages.examples.pace');}
     public function index_blank(){ return view('admin.pages.examples.blank');}
     public function index_starter(){ return view('admin.pages.starter');}
+    public function index_iframe(){ return view('admin.pages.iframe-dark');}
     // Errors
     public function index_error_404(){ return view('admin.pages.examples.404');}
     public function index_error_500(){ return view('admin.pages.examples.500');}

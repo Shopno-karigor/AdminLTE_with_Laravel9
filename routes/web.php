@@ -91,6 +91,7 @@ Route::get('Language Menu',[IndexController::class, 'index_language_menu'])->nam
 Route::get('Pace',[IndexController::class, 'index_pace'])->name('pace');
 Route::get('Blank',[IndexController::class, 'index_blank'])->name('blank');
 Route::get('Starter',[IndexController::class, 'index_starter'])->name('starter');
+Route::get('Iframe',[IndexController::class, 'index_iframe'])->name('iframe');
 // Errors
 Route::get('Error 404',[IndexController::class, 'index_error_404'])->name('error-404');
 Route::get('Error 500',[IndexController::class, 'index_error_500'])->name('error-500');
