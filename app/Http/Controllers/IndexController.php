@@ -62,5 +62,11 @@ class IndexController extends Controller
     public function index_contacts_examples(){ return view('admin.pages.examples.contacts');}
     public function index_faq_examples(){ return view('admin.pages.examples.faq');}
     public function index_contact_us_examples(){ return view('admin.pages.examples.contact-us');}
+    // Search
+    public function index_simple_search(){ return view('admin.pages.search.simple');}
+    public function index_simple_search_results(){ return view('admin.pages.search.simple-results');}
+    public function index_enhanced_search(){ return view('admin.pages.search.enhanced');}
+    public function index_enhanced_search_results(){ return view('admin.pages.search.enhanced-results');}
+
 
 }

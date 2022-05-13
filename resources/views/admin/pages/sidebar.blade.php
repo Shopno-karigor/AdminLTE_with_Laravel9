@@ -543,13 +543,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/search/simple.html" class="nav-link">
+                <a href="{{route('simple-search')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Simple Search</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/search/enhanced.html" class="nav-link">
+                <a href="{{route('enhanced-search')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Enhanced</p>
                 </a>

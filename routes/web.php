@@ -69,3 +69,9 @@ Route::get('Project Detail',[IndexController::class, 'index_project_detail_examp
 Route::get('Contacts',[IndexController::class, 'index_contacts_examples'])->name('contacts');
 Route::get('FAQ',[IndexController::class, 'index_faq_examples'])->name('faq');
 Route::get('Contact Us',[IndexController::class, 'index_contact_us_examples'])->name('contact-us');
+// Search
+Route::get('Search Simple',[IndexController::class, 'index_simple_search'])->name('simple-search');
+Route::get('Search Simple Results',[IndexController::class, 'index_simple_search_results'])->name('simple-search-results');
+Route::get('Search Enhanced',[IndexController::class, 'index_enhanced_search'])->name('enhanced-search');
+Route::get('Search Enhanced Results',[IndexController::class, 'index_enhanced_search_results'])->name('enhanced-search-results');
+
